@@ -45,6 +45,19 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+```
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github ... .git'
+And it was solved by executing the following commands:
+
+touch README
+git add README
+
+git add (all other files)
+git commit -m 'reinitialized files'
+git push origin master --force  # <- caution, --force can delete others work.
+
+```
 
 
 
